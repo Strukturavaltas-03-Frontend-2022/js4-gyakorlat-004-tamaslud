@@ -12,7 +12,7 @@ function* fibonacci() {
 const fibonacciIterator = fibonacci();
 
 const fibonacciExponential = () => {
-  const { value } = fibonacciIterator.next();
+  const value = fibonacciIterator.next();
   return value * value;
 };
 
